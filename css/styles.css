@@ -1,0 +1,214 @@
+.comfortaa{
+	font-family: Comfortaa !important;
+	text-transform:lowercase !important;
+	font-size: 50px !important;
+}
+
+.intro{
+	color: #fff;
+    font-size: 50px !important;
+    font-weight: 400;
+    letter-spacing: -1px;
+    margin: 0 0 22px;
+}
+
+.we-create{
+	padding:0;
+	margin:35px 0 55px;
+}
+.wp-pic{
+	margin-bottom:20px;
+}
+.we-create li{
+	display:inline-block;
+	font-family: 'Montserrat',sans-serif;
+	font-size:14px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin:0 5px 0 0;
+	padding:0 0 0 15px;
+}
+.we-create li:first-child{
+	background:none;
+}
+
+.white{
+	color: #fff;
+}
+
+/* Animation Timers
+---------------------------------*/
+.delay-02s {
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.2s;
+}
+.delay-03s {
+	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+.delay-04s {
+	animation-delay: 0.4s;
+	-webkit-animation-delay: 0.4s;
+}
+
+.delay-05s {
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}
+.delay-06s {
+	animation-delay: 0.6s;
+	-webkit-animation-delay: 0.6s;
+}
+
+.delay-07s {
+	animation-delay: 0.7s;
+	-webkit-animation-delay: 0.7s;
+}
+.delay-08s {
+	animation-delay: 0.8s;
+	-webkit-animation-delay: 0.8s;
+}
+
+.delay-09s {
+	animation-delay: 0.9s;
+	-webkit-animation-delay: 0.9s;
+}
+.delay-1s {
+	animation-delay: 1s;
+	-webkit-animation-delay: 1s;
+}
+.delay-12s {
+	animation-delay: 1.2s;
+	-webkit-animation-delay: 1.2s;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+
+@CHARSET "ISO-8859-1";
+
+.bootstrap-checkbox > button.btn{
+	padding:7px 0 4px 2px;
+	width:28px;
+}
+.bootstrap-checkbox > button.btn.displayAsButton{
+	width:auto;
+}
+.bootstrap-checkbox > button.btn.displayAsButton > span.label-checkbox{
+	padding:0 8px 0 4px;
+}
+.bootstrap-checkbox > button.btn.displayAsButton > span.icon{
+	margin: 2px 4px;
+}
+.bootstrap-checkbox > button.btn.displayAsButton > span.label-prepend-checkbox{
+	padding:0 4px 0 8px;
+}
+.bootstrap-checkbox > button.btn.btn-large{
+	padding:10px 0 6px 2px;
+	width:36px;
+}
+.bootstrap-checkbox > button.btn.btn-small{
+	padding:5px 0 3px 1px;
+	width:24px;
+}
+.bootstrap-checkbox > button.btn.btn-mini{
+	padding:4px 0 1px 1px;
+	width:20px;
+}
+
+.bootstrap-checkbox > .btn.btn-link{
+ 	text-decoration:none;
+}
+
+label.bootstrap-checkbox.disabled{
+	cursor:default;
+	color:#666;
+}
+
+.bootstrap-checkbox > .label-prepend-checkbox{
+	padding-right:4px;
+}
+
+.bootstrap-checkbox > .label-checkbox{
+	padding-left:4px;
+}
+
+.bootstrap-checkbox.disabled > [class^="label-"],
+.bootstrap-checkbox > .btn[disabled]{
+	cursor:not-allowed;
+}
+
+[class^="cb-icon-"],
+[class*=" cb-icon-"] {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin-top: 1px;
+	*margin-right: .3em;
+	line-height: 14px;
+	vertical-align: text-top;
+	background-image: url("../img/icons.png");
+	background-position: 14px 14px;
+	background-repeat: no-repeat;
+}
+
+.bootstrap-checkbox button.btn > span.cb-icon-check,
+.bootstrap-checkbox.disabled button.btn:hover > span.cb-icon-check,
+.bootstrap-checkbox.disabled button.btn:active > span.cb-icon-check{
+	background-position: 0 -1px;
+}
+.bootstrap-checkbox button.btn:hover > span.cb-icon-check,
+.bootstrap-checkbox button.btn:focus > span.cb-icon-check,
+.bootstrap-checkbox button.btn:active > span.cb-icon-check{
+	background-position: 0 -25px;
+}
+.bootstrap-checkbox button.btn > span.cb-icon-check-empty,
+.bootstrap-checkbox.disabled button.btn:hover > span.cb-icon-check-empty,
+.bootstrap-checkbox.disabled button.btn:active > span.cb-icon-check-empty{
+	background-position: -24px -1px;
+}
+.bootstrap-checkbox button.btn:hover > span.cb-icon-check-empty,
+.bootstrap-checkbox button.btn:focus > span.cb-icon-check-empty,
+.bootstrap-checkbox button.btn:active > span.cb-icon-check-empty{
+	background-position: -24px -25px;
+}
+
+.bootstrap-checkbox button.btn > span.cb-icon-check-indeterminate,
+.bootstrap-checkbox.disabled button.btn:hover > span.cb-icon-check-indeterminate,
+.bootstrap-checkbox.disabled button.btn:active > span.cb-icon-check-indeterminate{
+	background-position: -48px -1px;
+}
+.bootstrap-checkbox button.btn:hover > span.cb-icon-check-indeterminate,
+.bootstrap-checkbox button.btn:focus > span.cb-icon-check-indeterminate,
+.bootstrap-checkbox button.btn:active > span.cb-icon-check-indeterminate{
+	background-position: -48px -25px;
+}
